@@ -1,0 +1,68 @@
+
+main {
+    margin-top: 80px;
+    text-align: center;
+}
+main h1 {
+    font-size: 50px;
+    color: #B00000;
+    text-shadow: 0 0 5px rgb(128, 128, 128);
+}
+
+section.container {
+    background-color: #b00000;
+    color: white;
+    padding: 100px 50px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+section h2 {
+    margin-bottom: 20px ;
+}
+
+section h2:first-of-type {
+    color: gold;
+    text-shadow: 0 0 5px rgb(128, 128, 128);
+    font-size: 40px;
+}
+
+section p {
+    color: rgb(235, 235, 235);
+    line-height: 1.8;
+    width: 60%;
+    margin: 20px auto;
+}
+
+@media (max-width: 767px) {
+    section p {
+        width: 100%;
+    }
+}
+
+section.container h4 {
+    margin-top: 50px;
+}
+ul.one {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+ul.one li {
+    font-size: 13px;
+    padding: 15px 10px;
+    line-height: 1.5;
+    border: 3px solid rgba(235, 235, 235, 0.644);;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}

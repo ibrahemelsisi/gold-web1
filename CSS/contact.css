@@ -1,0 +1,71 @@
+section h2 {
+    width: fit-content;
+    margin: 50px auto;
+    color: #b00000;
+    font-size: 44px;
+    line-height: 1.6;
+    text-shadow: 0 1px 2px rgb(128, 128, 128);
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    section h2 {
+        font-size: 30px;
+    }
+}
+
+section .one {
+    background-color: #b00000;
+    color: white;
+    padding: 100px 50px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+section .one .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    padding: 50px 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #c00000;
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.783);
+}
+
+section .one .item .txt div {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+section .one .item .txt span {
+    font-size: 18px;
+    color: rgb(231, 231, 231);
+    line-height: 1.8;
+}
+
+@media (max-width: 767px) {
+    section .one {
+        padding: 20px 20px;
+    }
+
+    section .one .item .txt span {
+        font-size: 15px;
+    }
+}
+
+section .one .item i {
+    font-size: 30px;
+}
